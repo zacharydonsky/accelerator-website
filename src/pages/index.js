@@ -27,6 +27,7 @@ const Wrapper = styled.section`
   max-width: 800px;
 `
 
+import Header from "../components/header.js"
 class IndexPage extends React.Component {
   render() {
     return (
@@ -40,6 +41,7 @@ class IndexPage extends React.Component {
           <meta name="referrer" content="origin" />
         </Helmet>
         <GlobalStyle />
+        <Header/>
         <Wrapper>
           <Title>Hello World, this is my first styled component!</Title>
           <p>
