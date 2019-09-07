@@ -7,7 +7,7 @@ const Wrapper = styled.section`
   text-align: center;
   /* border-radius: 10px; */
   /* padding: 5.5rem; */
-
+  /* background-image: "url()" */
   /* margin: 3rem auto 0 auto; */
   width: 100vw;
   height: 10vh;
