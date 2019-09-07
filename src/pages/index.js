@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import { Helmet } from "react-helmet"
 import styled from "styled-components"
+import breakpoints from "styled-components-breakpoints"
 import GlobalStyle from "../styles/GlobalStyle"
 
 // Create a Title component that'll render an <h1> tag with some styles
@@ -31,7 +32,7 @@ class IndexPage extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <title>Gatsby Styled Components</title>
+          <title>Accelerator Project</title>
           <meta
             name="description"
             content="Gatsby example site using Styled Components"
