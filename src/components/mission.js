@@ -11,13 +11,14 @@ const Wrapper = styled.section`
   /* margin: 3rem auto 0 auto; */
   width: 100vw;
   height: 100vh;
-  background: black;
+  background: papayawhip;
 `
 
 class Mission extends React.Component {
   render() {
     return (
-      <Wrapper />
+      <Wrapper>
+      </Wrapper>
     )
   }
 }

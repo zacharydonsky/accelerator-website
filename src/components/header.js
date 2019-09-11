@@ -5,19 +5,25 @@ import breakpoints from "styled-components-breakpoints"
 
 const Wrapper = styled.section`
   text-align: center;
-  /* border-radius: 10px; */
-  /* padding: 5.5rem; */
-  /* background-image: "url()" */
-  /* margin: 3rem auto 0 auto; */
   width: 100vw;
   height: 100vh;
-  background: papayawhip;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+const TitleWrapper = styled.h1`
+  color: white;
 `
 
 class Header extends React.Component {
   render() {
     return (
-      <Wrapper />
+      <Wrapper>
+        <TitleWrapper>
+          Fart!
+        </TitleWrapper>
+      </Wrapper>
     )
   }
 }
