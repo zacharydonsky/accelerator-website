@@ -10,7 +10,7 @@ const Wrapper = styled.section`
   /* background-image: "url()" */
   /* margin: 3rem auto 0 auto; */
   width: 100vw;
-  height: 10vh;
+  height: 100vh;
   background: papayawhip;
 `
 

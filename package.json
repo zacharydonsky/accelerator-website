@@ -12,6 +12,7 @@
     "gatsby-plugin-offline": "^2.0.21",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-styled-components": "^3.0.4",
+    "gatsby-source-filesystem": "^2.1.22",
     "lodash": "^4.17.14",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

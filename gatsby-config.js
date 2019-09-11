@@ -10,8 +10,13 @@ module.exports = {
         trackingId: `UA-93349937-2`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets`,
+      },
+    },
     `gatsby-plugin-offline`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
   ],
 }
