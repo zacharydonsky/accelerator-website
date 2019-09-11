@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby with styled components`,
@@ -14,9 +16,11 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets`,
+        path: path.join(__dirname, `src`, `assets`),
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ],
 }
